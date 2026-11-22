@@ -1,0 +1,17 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# Temp / scrape
+_scrape/
+*.tmp
+*.log
+
+# Local env
+.env
+.env.*
