@@ -1,5 +1,7 @@
 # Inhaltsquellen – Mapping Alt → Neu
 
+**Site-Version:** 1.0.0  
+
 Quelle: WordPress-Site `http://www.re-vier.at` (Theme „First“, Abruf über HTTP).
 
 | Neue Datei | Alte URL / Seite | Inhalt |

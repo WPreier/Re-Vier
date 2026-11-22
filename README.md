@@ -2,6 +2,7 @@
 
 Professionelle Neuauflage der Website für **REVIER Alu Stahl Glas Service GmbH** (Stoob) als rein statische Seite: HTML, CSS, lokales JavaScript, lokale Bilder und Schriften.
 
+**Version:** `1.0.0` (siehe [`VERSION`](VERSION), Git-Tag `v1.0.0`)  
 **Quelle der Inhalte:** [http://www.re-vier.at](http://www.re-vier.at) (Stand Recherche 2026).  
 **Repository:** [github.com/WPreier/Re-Vier](https://github.com/WPreier/Re-Vier)  
 **Lokaler Sync-Ordner:** Google Drive `Meine Ablage/Re-Vier/re-vier`
@@ -16,7 +17,7 @@ Die Seite braucht keinen Build-Schritt.
 
 ```powershell
 cd "c:\Users\Preier.PPC\Meine Ablage\Re-Vier\re-vier"
-python -m http.server 8080
+npx --yes serve -l 8080
 ```
 
 Dann [http://localhost:8080](http://localhost:8080) öffnen.
