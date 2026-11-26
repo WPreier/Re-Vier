@@ -2,7 +2,7 @@
 
 Das REVIER-Web liegt im Unterverzeichnis **[`theweb/`](theweb/)**.
 
-**Aktuelle Version:** `1.1.0` (Tag `v1.1.0`)
+**Aktuelle Version:** `1.1.1` (Tag `v1.1.1`)
 
 - Site: [`theweb/index.html`](theweb/index.html)
 - Dokumentation: [`theweb/README.md`](theweb/README.md)
@@ -13,3 +13,5 @@ Das REVIER-Web liegt im Unterverzeichnis **[`theweb/`](theweb/)**.
 cd "c:\Users\Preier.PPC\Meine Ablage\Re-Vier\re-vier\theweb"
 npx --yes serve -l 8080
 ```
+
+Security-Hinweise: [	heweb/SECURITY.md](theweb/SECURITY.md)

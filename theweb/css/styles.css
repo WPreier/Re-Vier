@@ -753,6 +753,33 @@ h3,
   }
 }
 
+/* Utility classes (no inline styles – CSP style-src 'self') */
+.section-tight {
+  padding-top: 0;
+}
+
+.mt-md {
+  margin-top: 1.5rem;
+}
+
+.mt-lg {
+  margin-top: 2.5rem;
+}
+
+.mb-md {
+  margin-bottom: 2rem;
+}
+
+.heading-sub {
+  font-size: 1.35rem;
+  color: var(--brand-purple);
+}
+
+.heading-sub-lg {
+  font-size: 1.4rem;
+  color: var(--brand-purple);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

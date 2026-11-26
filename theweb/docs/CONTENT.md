@@ -1,9 +1,9 @@
 # Inhaltsquellen – Mapping Alt → Neu
 
-**Site-Version:** 1.1.0  
+**Site-Version:** 1.1.1  
 
 
-**Pfad im Repo:** `theweb/` (seit v1.1.0)
+**Pfad im Repo:** `theweb/` (seit v1.1.1)
 
 Quelle: WordPress-Site `http://www.re-vier.at` (Theme „First“, Abruf über HTTP).
 

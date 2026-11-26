@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.1 – 2026-11-27
+
+- Security-Header und CSP in allen HTML-Seiten (Meta)
+- Inline-Styles entfernt (CSP `style-src 'self'`)
+- Apache `.htaccess` und Netlify/Cloudflare `_headers` mit vollständigen Security-Headern
+- Dokumentation in `SECURITY.md` inkl. Nginx-Beispiel und Deploy-Hinweis
+
 ## 1.1.0 – 2026-11-22
 
 - Website und zugehörige Dateien nach `theweb/` verschoben

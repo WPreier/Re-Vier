@@ -2,8 +2,9 @@
 
 Professionelle Neuauflage der Website für **REVIER Alu Stahl Glas Service GmbH** (Stoob) als rein statische Seite: HTML, CSS, lokales JavaScript, lokale Bilder und Schriften.
 
-**Version:** `1.1.0` (siehe [`VERSION`](VERSION), Git-Tag `v1.1.0`)
-**Changelog:** [CHANGELOG.md](CHANGELOG.md)  
+**Version:** `1.1.1` (siehe [`VERSION`](VERSION), Git-Tag `v1.1.1`)
+**Changelog:** [CHANGELOG.md](CHANGELOG.md)
+**Security:** [SECURITY.md](SECURITY.md)  
 **Quelle der Inhalte:** [http://www.re-vier.at](http://www.re-vier.at) (Stand Recherche 2026).  
 **Repository:** [github.com/WPreier/Re-Vier](https://github.com/WPreier/Re-Vier)  
 **Lokaler Sync-Ordner:** Google Drive `Meine Ablage/Re-Vier/re-vier/theweb`
@@ -41,6 +42,10 @@ theweb/
   assets/fonts/       Self-hosted Outfit + Source Sans 3
   docs/CONTENT.md     Textquellen / Mapping Alt → Neu
   VERSION
+  SECURITY.md
+  CHANGELOG.md
+  .htaccess
+  _headers
 ```
 
 ## Kontakt (bewusst ohne Formular)
