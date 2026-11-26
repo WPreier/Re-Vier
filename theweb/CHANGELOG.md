@@ -1,5 +1,10 @@
 # Changelog
 
+## Dokumentation – 2026-11-27
+
+- Installations- und Update-Anleitung: `docs/DEPLOY.md`
+- Verlinkung aus Root-README, Site-README und SECURITY.md
+
 ## 1.1.1 – 2026-11-27
 
 - Security-Header und CSP in allen HTML-Seiten (Meta)

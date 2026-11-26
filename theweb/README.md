@@ -5,9 +5,15 @@ Professionelle Neuauflage der Website für **REVIER Alu Stahl Glas Service GmbH*
 **Version:** `1.1.1` (siehe [`VERSION`](VERSION), Git-Tag `v1.1.1`)
 **Changelog:** [CHANGELOG.md](CHANGELOG.md)
 **Security:** [SECURITY.md](SECURITY.md)  
+**Install & Update:** [docs/DEPLOY.md](docs/DEPLOY.md)  
 **Quelle der Inhalte:** [http://www.re-vier.at](http://www.re-vier.at) (Stand Recherche 2026).  
 **Repository:** [github.com/WPreier/Re-Vier](https://github.com/WPreier/Re-Vier)  
 **Lokaler Sync-Ordner:** Google Drive `Meine Ablage/Re-Vier/re-vier/theweb`
+
+## Server (Install / Update)
+
+Vollständige Anleitung für neuen Server und Updates: **[`docs/DEPLOY.md`](docs/DEPLOY.md)**  
+(Document-Root immer auf `theweb/`, Nginx- oder Apache-Beispiel, HTTPS, Git-Update.)
 
 ## Schnellstart
 
@@ -41,6 +47,7 @@ theweb/
   assets/images/      Logos & Projektfotos (lokal)
   assets/fonts/       Self-hosted Outfit + Source Sans 3
   docs/CONTENT.md     Textquellen / Mapping Alt → Neu
+  docs/DEPLOY.md      Installations- und Update-Anleitung
   VERSION
   SECURITY.md
   CHANGELOG.md
@@ -70,12 +77,8 @@ Es gibt **kein** Kontaktformular. Kontakt nur über:
 
 ## GitHub Pages (optional)
 
-1. Repo-Settings → Pages  
-2. Source: Branch `main`, Ordner `/theweb`  
-3. Speichern – die Site ist dann unter  
-   `https://wpreier.github.io/Re-Vier/` erreichbar (oder Custom Domain nach DNS-Setup)
-
-Pages ist **nicht** automatisch aktiviert; bei Bedarf manuell einschalten.
+Kurz: Settings → Pages → Branch `main`, Ordner `/theweb`.  
+Details und eigener Server: [`docs/DEPLOY.md`](docs/DEPLOY.md).
 
 ## Pflege
 

@@ -49,29 +49,13 @@ location / {
 
 Danach: `nginx -t && systemctl reload nginx`
 
-## Server aktualisieren (Deploy)
+## Installieren und aktualisieren
 
-1. **Neuen Stand holen** (auf dem Server oder lokal zum Upload):
+Vollständige Server-Anleitung (Neuinstallation Nginx/Apache, HTTPS, Updates, Checklisten):
 
-```bash
-git clone https://github.com/WPreier/Re-Vier.git
-# oder in bestehendem Clone:
-git fetch --tags
-git checkout v1.1.1
-# bzw. git pull origin main
-```
+→ **[`docs/DEPLOY.md`](docs/DEPLOY.md)**
 
-2. **Document-Root** auf den Ordner `theweb/` zeigen lassen (nicht das Repo-Root).
-
-3. **Je nach Webserver:**
-   - **Apache:** `.htaccess` im Document-Root (`theweb/`) mitdeployen; `AllowOverride` / `mod_headers` aktiv.
-   - **Nginx:** Snippet oben in die Site-Config; kein `.htaccess`.
-   - **Netlify / Cloudflare Pages:** `_headers` liegt bereits in `theweb/`.
-   - **GitHub Pages:** Limited Header-Support – Meta-CSP greift trotzdem; für volle Header besser Nginx/Apache/CDN davor.
-
-4. **TLS/HTTPS** aktivieren (Zertifikat, z. B. Let’s Encrypt). HSTS erst einschalten, wenn HTTPS zuverlässig läuft. Die Rewrite-Regel in `.htaccess` bei Bedarf entkommentieren.
-
-5. **Prüfen:** Browser-DevTools → Network → Response Headers; oder https://securityheaders.com
+Kurz: Document-Root = `theweb/`; Update mit `git pull` oder `git checkout vX.Y.Z`.
 
 ## Was absichtlich nicht in HTML-Meta steht
 
