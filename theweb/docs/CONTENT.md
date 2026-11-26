@@ -3,7 +3,8 @@
 **Site-Version:** 1.1.1  
 
 
-**Pfad im Repo:** `theweb/` (seit v1.1.1)
+**Pfad im Repo:** `theweb/` (seit v1.1.1)  
+**Install & Update:** [`DEPLOY.md`](DEPLOY.md)
 
 Quelle: WordPress-Site `http://www.re-vier.at` (Theme „First“, Abruf über HTTP).
 
